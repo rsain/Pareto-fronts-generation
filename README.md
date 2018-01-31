@@ -30,4 +30,4 @@ What it is available in this repository:
 - The DTLZ1, DTLZ2, DTLZ3, DTLZ4, and DTLZ7 Pareto optimal front for five, 10, and 15 objective functions.
 - The WFG Pareto optimal fronts for four, five, six, eight, 10, and 15 objective functions.
 
-NOTE: epsilon values has been adjusted to generate the approximation of the true Pareto optimal fronts using around 1,000 points.
+NOTE: epsilon values has been adjusted to generate the approximation of the true Pareto optimal fronts using 1,000 points.
