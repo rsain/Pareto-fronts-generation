@@ -22,7 +22,7 @@ How it works:
 
 Example: ./ParetoFrontsGeneration.sh DTLZ1 3 100000 0.01 ../pf/DTLZ1.15D.pf
 
-It generates 100,000 random optimal solutions for the three-objective version of the DTLZ1 problem and add them to an epsilon-dominance archive with epsilons set to (0.01, 0.01, 0.01).
+- It generates 100,000 random optimal solutions for the three-objective version of the DTLZ1 problem and add them to an epsilon-dominance archive with epsilons set to (0.01, 0.01, 0.01).
 
 What it is available in this repository:
 
