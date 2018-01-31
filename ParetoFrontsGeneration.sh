@@ -8,13 +8,14 @@
 #
 #IMPORTANT: Remember to run this script from the MOEA framework root folder.
 #
-#1st parameter: the name of the problem (DTLZ1, WFG1, ...).
+#1st parameter: the name of the problem (DTLZ1, WFG5, ...).
 #2nd parameter: the dimension of the problem (the number of objectives).
-#3rd parameter: number of random solutions (moeaframework will generate these random solutions and it will apply the Pareto dominance).
-#4th parameter: the step for each objective (it limites the size of the results).
-#5th parameter: the output file where the reference set is saved.
+#3rd parameter: number of random Pareto optimal solutions to generate.
+#4th parameter: the step for each objective to generate a smaller number of solutions applying the epsilon-dominance.
+#5th parameter: the output file where the Pareto optimal front will be stored.
 #
 #Example: ./ParetoFrontsGeneration.sh DTLZ1 3 100000 0.01 ../pf/DTLZ1.15D.pf
+#It generates 100,000 random optimal solutions for the three-objective version of the DTLZ1 problem and add them to an epsilon-dominance archive with epsilons set to (0.01, 0.01, 0.01).
 
 if [ "$#" -ne 5 ]; then
     echo "ERROR! This script needs the following FIVE parameters (in this order):"
