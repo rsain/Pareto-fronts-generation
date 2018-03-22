@@ -9,6 +9,16 @@ The script has the following five parameters:
 - 4th parameter: the step for each objective to generate a smaller number of solutions applying the epsilon-dominance.
 - 5th parameter: the output file where the Pareto optimal front will be stored.
 
+It uses the default values of decision variables for the DTLZ problems:
+
+- DTLZ1 (number of objectives + 4).
+- DTLZ2 (number of objectives + 9).
+- DTLZ7 (number of objectives + 19).
+
+It also uses the default moeaframework values for the position-related (k) and distance-related (l) variables for the WFG problems:
+
+- WFG1-WFG9, k = (number of objectives - 1) and l = 10.
+
 Requirements:
 
 - The MOEA framework and a compatible JDK.
