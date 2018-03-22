@@ -12,7 +12,7 @@ The script has the following five parameters:
 It uses the default values of decision variables for the DTLZ problems:
 
 - DTLZ1 (number of objectives + 4).
-- DTLZ2 (number of objectives + 9).
+- DTLZ2-DTLZ4 (number of objectives + 9).
 - DTLZ7 (number of objectives + 19).
 
 It also uses the default moeaframework values for the position-related (k) and distance-related (l) variables for the WFG problems:
